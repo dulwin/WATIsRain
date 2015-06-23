@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80703671B37500800B5B9A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80703661B37500800B5B9A4 /* AppDelegate.swift */; };
+		F80703691B37500800B5B9A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80703681B37500800B5B9A4 /* ViewController.swift */; };
+		F807036C1B37500800B5B9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F807036A1B37500800B5B9A4 /* Main.storyboard */; };
+		F807036E1B37500800B5B9A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F807036D1B37500800B5B9A4 /* Images.xcassets */; };
+		F80703711B37500800B5B9A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F807036F1B37500800B5B9A4 /* LaunchScreen.xib */; };
+		F807037D1B37500800B5B9A4 /* WATIsRainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F807037C1B37500800B5B9A4 /* WATIsRainTests.swift */; };
+		F80703891B3769B500B5B9A4 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80703881B3769B500B5B9A4 /* Graph.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80703771B37500800B5B9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80703591B37500800B5B9A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80703601B37500800B5B9A4;
+			remoteInfo = WATIsRain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80703611B37500800B5B9A4 /* WATIsRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WATIsRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80703651B37500800B5B9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80703661B37500800B5B9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80703681B37500800B5B9A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F807036B1B37500800B5B9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F807036D1B37500800B5B9A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F80703701B37500800B5B9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F80703761B37500800B5B9A4 /* WATIsRainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WATIsRainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F807037B1B37500800B5B9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F807037C1B37500800B5B9A4 /* WATIsRainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WATIsRainTests.swift; sourceTree = "<group>"; };
+		F80703881B3769B500B5B9A4 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F807035E1B37500800B5B9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80703731B37500800B5B9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80703581B37500800B5B9A4 = {
+			isa = PBXGroup;
+			children = (
+				F80703631B37500800B5B9A4 /* WATIsRain */,
+				F80703791B37500800B5B9A4 /* WATIsRainTests */,
+				F80703621B37500800B5B9A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80703621B37500800B5B9A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80703611B37500800B5B9A4 /* WATIsRain.app */,
+				F80703761B37500800B5B9A4 /* WATIsRainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80703631B37500800B5B9A4 /* WATIsRain */ = {
+			isa = PBXGroup;
+			children = (
+				F80703661B37500800B5B9A4 /* AppDelegate.swift */,
+				F80703681B37500800B5B9A4 /* ViewController.swift */,
+				F80703881B3769B500B5B9A4 /* Graph.swift */,
+				F807036A1B37500800B5B9A4 /* Main.storyboard */,
+				F807036D1B37500800B5B9A4 /* Images.xcassets */,
+				F807036F1B37500800B5B9A4 /* LaunchScreen.xib */,
+				F80703641B37500800B5B9A4 /* Supporting Files */,
+			);
+			path = WATIsRain;
+			sourceTree = "<group>";
+		};
+		F80703641B37500800B5B9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80703651B37500800B5B9A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F80703791B37500800B5B9A4 /* WATIsRainTests */ = {
+			isa = PBXGroup;
+			children = (
+				F807037C1B37500800B5B9A4 /* WATIsRainTests.swift */,
+				F807037A1B37500800B5B9A4 /* Supporting Files */,
+			);
+			path = WATIsRainTests;
+			sourceTree = "<group>";
+		};
+		F807037A1B37500800B5B9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F807037B1B37500800B5B9A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80703601B37500800B5B9A4 /* WATIsRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80703801B37500800B5B9A4 /* Build configuration list for PBXNativeTarget "WATIsRain" */;
+			buildPhases = (
+				F807035D1B37500800B5B9A4 /* Sources */,
+				F807035E1B37500800B5B9A4 /* Frameworks */,
+				F807035F1B37500800B5B9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WATIsRain;
+			productName = WATIsRain;
+			productReference = F80703611B37500800B5B9A4 /* WATIsRain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80703751B37500800B5B9A4 /* WATIsRainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80703831B37500800B5B9A4 /* Build configuration list for PBXNativeTarget "WATIsRainTests" */;
+			buildPhases = (
+				F80703721B37500800B5B9A4 /* Sources */,
+				F80703731B37500800B5B9A4 /* Frameworks */,
+				F80703741B37500800B5B9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80703781B37500800B5B9A4 /* PBXTargetDependency */,
+			);
+			name = WATIsRainTests;
+			productName = WATIsRainTests;
+			productReference = F80703761B37500800B5B9A4 /* WATIsRainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80703591B37500800B5B9A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Anish Chopra";
+				TargetAttributes = {
+					F80703601B37500800B5B9A4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F80703751B37500800B5B9A4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F80703601B37500800B5B9A4;
+					};
+				};
+			};
+			buildConfigurationList = F807035C1B37500800B5B9A4 /* Build configuration list for PBXProject "WATIsRain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80703581B37500800B5B9A4;
+			productRefGroup = F80703621B37500800B5B9A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80703601B37500800B5B9A4 /* WATIsRain */,
+				F80703751B37500800B5B9A4 /* WATIsRainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F807035F1B37500800B5B9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F807036C1B37500800B5B9A4 /* Main.storyboard in Resources */,
+				F80703711B37500800B5B9A4 /* LaunchScreen.xib in Resources */,
+				F807036E1B37500800B5B9A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80703741B37500800B5B9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F807035D1B37500800B5B9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80703891B3769B500B5B9A4 /* Graph.swift in Sources */,
+				F80703691B37500800B5B9A4 /* ViewController.swift in Sources */,
+				F80703671B37500800B5B9A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80703721B37500800B5B9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F807037D1B37500800B5B9A4 /* WATIsRainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80703781B37500800B5B9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80703601B37500800B5B9A4 /* WATIsRain */;
+			targetProxy = F80703771B37500800B5B9A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F807036A1B37500800B5B9A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F807036B1B37500800B5B9A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F807036F1B37500800B5B9A4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80703701B37500800B5B9A4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F807037E1B37500800B5B9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F807037F1B37500800B5B9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80703811B37500800B5B9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WATIsRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F80703821B37500800B5B9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WATIsRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F80703841B37500800B5B9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WATIsRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WATIsRain.app/WATIsRain";
+			};
+			name = Debug;
+		};
+		F80703851B37500800B5B9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WATIsRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WATIsRain.app/WATIsRain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F807035C1B37500800B5B9A4 /* Build configuration list for PBXProject "WATIsRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F807037E1B37500800B5B9A4 /* Debug */,
+				F807037F1B37500800B5B9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80703801B37500800B5B9A4 /* Build configuration list for PBXNativeTarget "WATIsRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80703811B37500800B5B9A4 /* Debug */,
+				F80703821B37500800B5B9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F80703831B37500800B5B9A4 /* Build configuration list for PBXNativeTarget "WATIsRainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80703841B37500800B5B9A4 /* Debug */,
+				F80703851B37500800B5B9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80703591B37500800B5B9A4 /* Project object */;
+}
